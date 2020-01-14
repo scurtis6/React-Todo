@@ -48,7 +48,16 @@ class App extends React.Component {
     });
   };
 
-  add
+  addTodo = todoItem => {
+    const newTodo = {
+      task: todoItem,
+      id: Date.now(),
+      completed: false
+    };
+    this.setState({
+      todoList: [...this.state.todoList, newTodo]
+    });
+  };
   
   render() {
     return (
