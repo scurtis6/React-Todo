@@ -2,12 +2,13 @@
     text-decoration: line-through;
   }
 
+.App{
+    width: 50%;
+}
 .todo-list{
     border: 2px solid rgb(146, 61, 224);
     margin-top: 5%;
     padding: 1% 0 3% 5%;
-    /* padding-left: 5%;
-    padding-bottom: 5%; */
 }
 
 .todo-list button{
