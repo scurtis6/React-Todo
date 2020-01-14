@@ -19,6 +19,16 @@ const list =[
     task: 'Vacuum',
     id: 1528817091420,
     completed: false
+  },
+  {
+    task: 'Clean Room',
+    id: 1578971354923,
+    completed: false
+  },
+  {
+    task: 'Brush Teeth',
+    id: 1578971434813,
+    completed: false
   }
 ]
 
