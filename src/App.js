@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import TodoList from './components/TodoComponents/TodoList';
 import TodoForm from './components/TodoComponents/TodoForm';
+import './components/TodoComponents/Todo.css';
 
 const list =[
   {
@@ -32,7 +33,7 @@ class App extends React.Component {
     }
   }
 
-  toggleTodo = id => {
+  toggleItem = id => {
     const newTodoList = this.state.todoList.map(todo => {
       if (todo.id === id) {
         return {
