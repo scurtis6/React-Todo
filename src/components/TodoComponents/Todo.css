@@ -1,0 +1,45 @@
+.todo.completed {
+    text-decoration: line-through;
+  }
+
+.App{
+    width: 50%;
+}
+.todo-list{
+    border: 2px solid rgb(146, 61, 224);
+    margin-top: 5%;
+    padding: 1% 0 3% 5%;
+}
+
+.todo-list button{
+    background-color: rgb(146, 61, 224);
+    color: cornsilk;
+}
+
+.todo-list button:hover{
+    background-color: cornsilk;
+    color: rgb(146, 61, 224);
+}
+
+.header h1{
+    background-color: rgb(146, 61, 224);
+    color: cornsilk;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.header form{
+    margin-bottom: -3%;
+    margin-left: 5%;
+}
+
+.header form button{
+    background-color: rgb(147, 144, 150);
+    color: white;
+}
+
+.header form button:hover{
+    color: rgb(147, 144, 150);
+    background-color: cornsilk;
+}
